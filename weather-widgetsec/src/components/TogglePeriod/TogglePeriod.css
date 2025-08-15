@@ -1,0 +1,25 @@
+.toggle-period {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.toggle-period button {
+  padding: 10px 20px;
+  background: #e0e0e0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s;
+}
+
+.toggle-period button:hover {
+  background: #bdbdbd;
+}
+
+.toggle-period button.active {
+  background: #2193b0;
+  color: white;
+}

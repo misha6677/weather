@@ -1,0 +1,43 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6dd5ed, #2193b0);
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    padding: 25px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.loader,
+.error {
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.loader {
+    background: #e0f7fa;
+    color: #00838f;
+}
+
+.error {
+    background: #ffebee;
+    color: #c62828;
+}

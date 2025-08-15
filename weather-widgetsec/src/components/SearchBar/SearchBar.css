@@ -1,0 +1,43 @@
+.search-bar {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.search-bar input:focus {
+  border-color: #2193b0;
+}
+
+.search-bar button {
+  padding: 12px 20px;
+  background: #2193b0;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.search-bar button:hover {
+  background: #1a7a8c;
+}
+
+.geolocation-btn {
+  background: #2c3e50 !important;
+  font-size: 18px;
+}
+
+.geolocation-btn:hover {
+  background: #1a252f !important;
+}
